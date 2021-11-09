@@ -26,3 +26,5 @@ This also requires the webdriver for the version of chrome you are useing, to fi
 The download link is here, make sure you replace the webdriver in the folder with the version which souports you with the same name.
 
 https://chromedriver.chromium.org/downloads The one this comes with is version 95
+
+Yes this requires osu account detials but look at the code to see why it needs them and see that there is no storing or sending of any information.
