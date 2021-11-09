@@ -225,5 +225,6 @@ for f in os.listdir(f'{cwd}/OsuFiles'):
     if len(os.listdir(f'{cwd}/OsuFiles/{f}')) == 0: shutil.rmtree(f'{cwd}/OsuFiles/{f}')
 drawProgressBar(10,10)
 driver.quit()
-input('Press enter to quit ->')
+print('Process compleated with no errors')
+input('Press enter to exit ->')
 
