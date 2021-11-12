@@ -2,22 +2,22 @@ Given given a text file with the beatmap links and headings the program will dow
 
 The input file sould look like this:
 
-1 This is a heading
-2 osu.ppy.sh/beatmapsets/873811#osu/1829038!
-3 Also a heading
-4 00:00
-5 is listening to [osu.ppy.sh/beatmapsets/
-6 906786#/1909493 Koda Kumi - Guess Who Is Back (TV Size)
-7 is listening to [osu.ppy.sh/beatmapsets/\359472#/\792670 Itou Kanako - Amadeus]
+1 This is a heading\
+2 osu.ppy.sh/beatmapsets/873811#osu/1829038!\
+3 Also a heading\
+4 00:00\
+5 is listening to [osu.ppy.sh/beatmapsets/\
+6 906786#/1909493 Koda Kumi - Guess Who Is Back (TV Size)\
+7 is listening to [osu.ppy.sh/beatmapsets/\359472#/\792670 Itou Kanako - Amadeus]\
 
 Then inside the 'OsuFiles' folder there will be a tree which looks like this:
 
-This is a heading:
----map1.osz
+This is a heading:\
+---map1.osz\
 
-Also a heading
----map2.osz
----map3.osz
+Also a heading\
+---map2.osz\
+---map3.osz\
 
 This requires selenium to be installed, if you do not have selenium run the 'install.bat' file which will install it with the command line.
 
